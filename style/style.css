@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {font-family: "Lato", sans-serif}
+.container {
+    margin: 0 auto;
+    width: 65%;
+}
+.navbar {
+    position:fixed;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 1.25rem;
+}
+ul li a:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    background-color: black;
+    height: 3rem;
+}
+.searchbox {
+    position: absolute;
+    right: 0px;
+}
+
+                /* dropdown menu */
+/* }
+ul li ul{
+    position: relative;
+}
+ul li ul li {
+    display: hidden;
+}
+ul li ul
+ul li ul li{
+} */
+
+
+/* Utility class */
+.p1{padding: 10px;}
+.p2{padding: 20px;}
+.p3{padding: 30px;}
+.ptb2{padding: 7.5px 0;}
+.mg1{margin: 10px;}
+.mg2{margin: 20px;}
+.mg3{margin: 30px;}
+.mt3{margin-top: 30px;}
+.mb3{margin-bottom: 2rem;}
+.mb2{margin-bottom: 1rem;}
+.mgr0{margin: 20px 0 20px 5px;}
+.mglr15{margin: 20px 5px 20px 5px;}
+.mg0 {margin: 20px 0 20px 0;}
+.center{text-align: center;}
+.block{display: block;}
+h3{font-size: 2rem;font-weight:400;letter-spacing: 2px;}
+p{font-size: 0.93rem;}
+.bg-black{background: black;}
+.bg-white{background-color: white;}
+.light-text{color: grey;}
+.white-text{color: #fff;padding: 70px 30px 3px 30px;}
+.wd{width: 47.5%;}
+
+/* 1st large pic */
+.bg-img {
+    height: 100vh;
+    position: relative;
+}
+.bg-img img {
+    opacity: 0.9;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.bg-text {
+    text-align: center;
+    color:#fff;
+    text-shadow:2px 1px gray;
+    position: absolute;
+    left: 50%;
+    bottom: 60px;
+    transform: translateX(-50%);
+    line-height: 1.5rem;
+}
+/* Section band */
+.section-band{
+    margin-top: 5%;
+}
+/*  3 pics in row */
+.three-in-row {
+    display: flex;
+    justify-content:start;
+}
+.three-in-row img {
+    width: 100%;
+    padding: 0 2rem 2rem 2rem;
+    border-radius: 30px;
+}
+    /*  Tour DATES  section */
+.tkt-check p {
+    border-top: 1px solid rgb(170, 170, 170);
+    font-size: 1rem;
+    padding: .5rem 1rem;
+}
+.bg-red{
+    background-color: red;
+    padding: .25rem .5rem;
+    color: white;
+    margin-left: 1rem;
+    border-radius: .25rem;
+}
+.circle{
+    display: inline-block;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    padding: .25rem;
+    width: 30px;
+}
+.align-right {
+    display: flex;
+    justify-content: space-between;
+}
+.three-inn-row{
+    display: flex;
+}
+.three-inn-row img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.three-inn-row p {
+    font-size: 1rem;
+}
+.btn-pos {
+    height: 35vh;
+}
+.btn {
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 0.93rem;
+}
+
+/* Contact-section */
+.sub-contact {
+    display: flex;
+}
+.Contact-section p {
+    font-size: 18px;
+}
+.Contact-section i {
+    padding: .4rem;
+}
+.our-info{
+    width: 49%;
+}
+form {
+    width: 49.9%;
+    display: inline;
+    
+    position: relative;
+    height: 50vh;
+}
+form input {
+    padding: .5rem;
+    font-size: .93rem;
+}
+.mgh{
+    margin: 0 0 10px 15px;
+}
+.full-width{
+    width: 100%;
+}
+/* Send button */
+.btn-send {
+    position: absolute;
+    right: 0px;
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+/* Map */
+.map-pic img{
+    margin-top: 10rem;
+    width: 100%;
+}
